@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A003DA51AD41A060069BC13 /* AWSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A003DA41AD41A060069BC13 /* AWSDK.framework */; };
+		7286F4A715F3FD4B0089327F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7286F4A615F3FD4B0089327F /* UIKit.framework */; };
+		7286F4A915F3FD4B0089327F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7286F4A815F3FD4B0089327F /* Foundation.framework */; };
+		7286F4AB15F3FD4B0089327F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7286F4AA15F3FD4B0089327F /* CoreGraphics.framework */; };
+		7286F4B115F3FD4B0089327F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7286F4AF15F3FD4B0089327F /* InfoPlist.strings */; };
+		7286F4B315F3FD4B0089327F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7286F4B215F3FD4B0089327F /* main.m */; };
+		7286F4B715F3FD4C0089327F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7286F4B615F3FD4C0089327F /* AppDelegate.m */; };
+		7286F4DE15F3FD8B0089327F /* backIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7286F4D715F3FD8B0089327F /* backIcon.png */; };
+		7286F4DF15F3FD8B0089327F /* backIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7286F4D815F3FD8B0089327F /* backIcon@2x.png */; };
+		7286F4E015F3FD8B0089327F /* forwardIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7286F4D915F3FD8B0089327F /* forwardIcon.png */; };
+		7286F4E115F3FD8B0089327F /* forwardIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7286F4DA15F3FD8B0089327F /* forwardIcon@2x.png */; };
+		7286F4E215F3FD8B0089327F /* JHWebBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7286F4DC15F3FD8B0089327F /* JHWebBrowser.m */; };
+		7286F4E315F3FD8B0089327F /* JHWebBrowser.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7286F4DD15F3FD8B0089327F /* JHWebBrowser.xib */; };
+		7286F4E615F4094D0089327F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7286F4E515F4094C0089327F /* MainViewController.m */; };
+		85CB3A5117FB7D620041A57D /* AppConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85CB3A5017FB7D620041A57D /* AppConfig.plist */; };
+		8A10286B17F4E1F900475E2E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A10286A17F4E1F900475E2E /* Security.framework */; };
+		8A10286D17F4E20100475E2E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A10286C17F4E20100475E2E /* CoreLocation.framework */; };
+		8A10286F17F4E20900475E2E /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A10286E17F4E20900475E2E /* libsqlite3.dylib */; };
+		8A10287117F4E21E00475E2E /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A10287017F4E21E00475E2E /* libc++.dylib */; };
+		8A10287317F4E22900475E2E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A10287217F4E22900475E2E /* CFNetwork.framework */; };
+		8A10287517F4E23400475E2E /* libc.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A10287417F4E23400475E2E /* libc.dylib */; };
+		8A10287717F4E24300475E2E /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A10287617F4E24300475E2E /* libstdc++.dylib */; };
+		8A10287917F4E25800475E2E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A10287817F4E25800475E2E /* SystemConfiguration.framework */; };
+		8A10287B17F4E26B00475E2E /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A10287A17F4E26B00475E2E /* MessageUI.framework */; };
+		8A10287D17F4E27300475E2E /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A10287C17F4E27300475E2E /* libz.dylib */; };
+		8A10287F17F4E28300475E2E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A10287E17F4E28300475E2E /* MobileCoreServices.framework */; };
+		8A10288117F4E2D500475E2E /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A10288017F4E2D500475E2E /* CoreTelephony.framework */; };
+		8A10288317F4E2DA00475E2E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A10288217F4E2DA00475E2E /* CoreData.framework */; };
+		8A10288517F4E2DF00475E2E /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A10288417F4E2DF00475E2E /* CoreText.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A003DA41AD41A060069BC13 /* AWSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AWSDK.framework; sourceTree = "<group>"; };
+		7286F4A215F3FD4B0089327F /* GPS App - iOS 7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GPS App - iOS 7.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7286F4A615F3FD4B0089327F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7286F4A815F3FD4B0089327F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7286F4AA15F3FD4B0089327F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7286F4AE15F3FD4B0089327F /* GPS App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GPS App-Info.plist"; sourceTree = "<group>"; };
+		7286F4B015F3FD4B0089327F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7286F4B215F3FD4B0089327F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7286F4B415F3FD4B0089327F /* GPS App-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GPS App-Prefix.pch"; sourceTree = "<group>"; };
+		7286F4B515F3FD4C0089327F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7286F4B615F3FD4C0089327F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7286F4D715F3FD8B0089327F /* backIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backIcon.png; sourceTree = "<group>"; };
+		7286F4D815F3FD8B0089327F /* backIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backIcon@2x.png"; sourceTree = "<group>"; };
+		7286F4D915F3FD8B0089327F /* forwardIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forwardIcon.png; sourceTree = "<group>"; };
+		7286F4DA15F3FD8B0089327F /* forwardIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "forwardIcon@2x.png"; sourceTree = "<group>"; };
+		7286F4DB15F3FD8B0089327F /* JHWebBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHWebBrowser.h; sourceTree = "<group>"; };
+		7286F4DC15F3FD8B0089327F /* JHWebBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHWebBrowser.m; sourceTree = "<group>"; };
+		7286F4DD15F3FD8B0089327F /* JHWebBrowser.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHWebBrowser.xib; sourceTree = "<group>"; };
+		7286F4E415F4094C0089327F /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		7286F4E515F4094C0089327F /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		85CB3A5017FB7D620041A57D /* AppConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AppConfig.plist; sourceTree = "<group>"; };
+		8A10286A17F4E1F900475E2E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		8A10286C17F4E20100475E2E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8A10286E17F4E20900475E2E /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		8A10287017F4E21E00475E2E /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		8A10287217F4E22900475E2E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		8A10287417F4E23400475E2E /* libc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libc.dylib; path = usr/lib/libc.dylib; sourceTree = SDKROOT; };
+		8A10287617F4E24300475E2E /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		8A10287817F4E25800475E2E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8A10287A17F4E26B00475E2E /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		8A10287C17F4E27300475E2E /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		8A10287E17F4E28300475E2E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		8A10288017F4E2D500475E2E /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		8A10288217F4E2DA00475E2E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8A10288417F4E2DF00475E2E /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7286F49F15F3FD4B0089327F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A003DA51AD41A060069BC13 /* AWSDK.framework in Frameworks */,
+				8A10288517F4E2DF00475E2E /* CoreText.framework in Frameworks */,
+				8A10288317F4E2DA00475E2E /* CoreData.framework in Frameworks */,
+				8A10288117F4E2D500475E2E /* CoreTelephony.framework in Frameworks */,
+				8A10287F17F4E28300475E2E /* MobileCoreServices.framework in Frameworks */,
+				8A10287D17F4E27300475E2E /* libz.dylib in Frameworks */,
+				8A10287B17F4E26B00475E2E /* MessageUI.framework in Frameworks */,
+				8A10287917F4E25800475E2E /* SystemConfiguration.framework in Frameworks */,
+				8A10287717F4E24300475E2E /* libstdc++.dylib in Frameworks */,
+				8A10287517F4E23400475E2E /* libc.dylib in Frameworks */,
+				8A10287317F4E22900475E2E /* CFNetwork.framework in Frameworks */,
+				8A10287117F4E21E00475E2E /* libc++.dylib in Frameworks */,
+				8A10286F17F4E20900475E2E /* libsqlite3.dylib in Frameworks */,
+				8A10286D17F4E20100475E2E /* CoreLocation.framework in Frameworks */,
+				8A10286B17F4E1F900475E2E /* Security.framework in Frameworks */,
+				7286F4A715F3FD4B0089327F /* UIKit.framework in Frameworks */,
+				7286F4A915F3FD4B0089327F /* Foundation.framework in Frameworks */,
+				7286F4AB15F3FD4B0089327F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7286F49715F3FD4B0089327F = {
+			isa = PBXGroup;
+			children = (
+				7286F4AC15F3FD4B0089327F /* JHWebBrowser */,
+				7286F4A515F3FD4B0089327F /* Frameworks */,
+				7286F4A315F3FD4B0089327F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7286F4A315F3FD4B0089327F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7286F4A215F3FD4B0089327F /* GPS App - iOS 7.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7286F4A515F3FD4B0089327F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A003DA41AD41A060069BC13 /* AWSDK.framework */,
+				8A10288417F4E2DF00475E2E /* CoreText.framework */,
+				8A10288217F4E2DA00475E2E /* CoreData.framework */,
+				8A10288017F4E2D500475E2E /* CoreTelephony.framework */,
+				8A10287E17F4E28300475E2E /* MobileCoreServices.framework */,
+				8A10287C17F4E27300475E2E /* libz.dylib */,
+				8A10287A17F4E26B00475E2E /* MessageUI.framework */,
+				8A10287817F4E25800475E2E /* SystemConfiguration.framework */,
+				8A10287617F4E24300475E2E /* libstdc++.dylib */,
+				8A10287417F4E23400475E2E /* libc.dylib */,
+				8A10287217F4E22900475E2E /* CFNetwork.framework */,
+				8A10287017F4E21E00475E2E /* libc++.dylib */,
+				8A10286E17F4E20900475E2E /* libsqlite3.dylib */,
+				8A10286C17F4E20100475E2E /* CoreLocation.framework */,
+				8A10286A17F4E1F900475E2E /* Security.framework */,
+				7286F4A615F3FD4B0089327F /* UIKit.framework */,
+				7286F4A815F3FD4B0089327F /* Foundation.framework */,
+				7286F4AA15F3FD4B0089327F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7286F4AC15F3FD4B0089327F /* JHWebBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				85CB3A5017FB7D620041A57D /* AppConfig.plist */,
+				7286F4B515F3FD4C0089327F /* AppDelegate.h */,
+				7286F4B615F3FD4C0089327F /* AppDelegate.m */,
+				7286F4E415F4094C0089327F /* MainViewController.h */,
+				7286F4E515F4094C0089327F /* MainViewController.m */,
+				7286F4D515F3FD8B0089327F /* JHWebBrowser */,
+				7286F4AD15F3FD4B0089327F /* Supporting Files */,
+			);
+			path = JHWebBrowser;
+			sourceTree = "<group>";
+		};
+		7286F4AD15F3FD4B0089327F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7286F4AE15F3FD4B0089327F /* GPS App-Info.plist */,
+				7286F4AF15F3FD4B0089327F /* InfoPlist.strings */,
+				7286F4B215F3FD4B0089327F /* main.m */,
+				7286F4B415F3FD4B0089327F /* GPS App-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7286F4D515F3FD8B0089327F /* JHWebBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				7286F4D615F3FD8B0089327F /* Images */,
+				7286F4DB15F3FD8B0089327F /* JHWebBrowser.h */,
+				7286F4DC15F3FD8B0089327F /* JHWebBrowser.m */,
+				7286F4DD15F3FD8B0089327F /* JHWebBrowser.xib */,
+			);
+			path = JHWebBrowser;
+			sourceTree = "<group>";
+		};
+		7286F4D615F3FD8B0089327F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				7286F4D715F3FD8B0089327F /* backIcon.png */,
+				7286F4D815F3FD8B0089327F /* backIcon@2x.png */,
+				7286F4D915F3FD8B0089327F /* forwardIcon.png */,
+				7286F4DA15F3FD8B0089327F /* forwardIcon@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7286F4A115F3FD4B0089327F /* GPS App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7286F4C315F3FD4C0089327F /* Build configuration list for PBXNativeTarget "GPS App" */;
+			buildPhases = (
+				7286F49E15F3FD4B0089327F /* Sources */,
+				7286F49F15F3FD4B0089327F /* Frameworks */,
+				7286F4A015F3FD4B0089327F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GPS App";
+			productName = JHWebBrowser;
+			productReference = 7286F4A215F3FD4B0089327F /* GPS App - iOS 7.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7286F49915F3FD4B0089327F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = AirWatch;
+				TargetAttributes = {
+					7286F4A115F3FD4B0089327F = {
+						DevelopmentTeam = 57GD4WK7V4;
+					};
+				};
+			};
+			buildConfigurationList = 7286F49C15F3FD4B0089327F /* Build configuration list for PBXProject "GPS App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7286F49715F3FD4B0089327F;
+			productRefGroup = 7286F4A315F3FD4B0089327F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7286F4A115F3FD4B0089327F /* GPS App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7286F4A015F3FD4B0089327F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7286F4B115F3FD4B0089327F /* InfoPlist.strings in Resources */,
+				7286F4DE15F3FD8B0089327F /* backIcon.png in Resources */,
+				7286F4DF15F3FD8B0089327F /* backIcon@2x.png in Resources */,
+				85CB3A5117FB7D620041A57D /* AppConfig.plist in Resources */,
+				7286F4E015F3FD8B0089327F /* forwardIcon.png in Resources */,
+				7286F4E115F3FD8B0089327F /* forwardIcon@2x.png in Resources */,
+				7286F4E315F3FD8B0089327F /* JHWebBrowser.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7286F49E15F3FD4B0089327F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7286F4B315F3FD4B0089327F /* main.m in Sources */,
+				7286F4B715F3FD4C0089327F /* AppDelegate.m in Sources */,
+				7286F4E215F3FD8B0089327F /* JHWebBrowser.m in Sources */,
+				7286F4E615F4094D0089327F /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7286F4AF15F3FD4B0089327F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7286F4B015F3FD4B0089327F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7286F4C115F3FD4C0089327F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7286F4C215F3FD4C0089327F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7286F4C415F3FD4C0089327F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JHWebBrowser/GPS App-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"/Users/dedmonson/Desktop/JHWebBrowser-master/AWSDK/**",
+				);
+				INFOPLIST_FILE = "JHWebBrowser/GPS App-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/dedmonson/Desktop/JHWebBrowser-master",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "GPS App - iOS 7";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7286F4C515F3FD4C0089327F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JHWebBrowser/GPS App-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"/Users/dedmonson/Desktop/JHWebBrowser-master/AWSDK/**",
+				);
+				INFOPLIST_FILE = "JHWebBrowser/GPS App-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/dedmonson/Desktop/JHWebBrowser-master",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "GPS App - iOS 7";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7286F49C15F3FD4B0089327F /* Build configuration list for PBXProject "GPS App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7286F4C115F3FD4C0089327F /* Debug */,
+				7286F4C215F3FD4C0089327F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7286F4C315F3FD4C0089327F /* Build configuration list for PBXNativeTarget "GPS App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7286F4C415F3FD4C0089327F /* Debug */,
+				7286F4C515F3FD4C0089327F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7286F49915F3FD4B0089327F /* Project object */;
+}

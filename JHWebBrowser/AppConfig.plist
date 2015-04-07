@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DO NOT TOUCH - SET TO YES</key>
+	<integer>1</integer>
+	<key>Location Sensitivity(meters)</key>
+	<integer>1600</integer>
+	<key>Sampling Interval(minutes)</key>
+	<integer>15</integer>
+	<key>Landing Page</key>
+	<string>https://www.air-watch.com</string>
+</dict>
+</plist>
