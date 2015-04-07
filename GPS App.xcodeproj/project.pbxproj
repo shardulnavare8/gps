@@ -356,7 +356,7 @@
 					"/Users/dedmonson/Desktop/JHWebBrowser-master/AWSDK/**",
 				);
 				INFOPLIST_FILE = "JHWebBrowser/GPS App-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/dedmonson/Desktop/JHWebBrowser-master",
@@ -385,7 +385,7 @@
 					"/Users/dedmonson/Desktop/JHWebBrowser-master/AWSDK/**",
 				);
 				INFOPLIST_FILE = "JHWebBrowser/GPS App-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/dedmonson/Desktop/JHWebBrowser-master",
