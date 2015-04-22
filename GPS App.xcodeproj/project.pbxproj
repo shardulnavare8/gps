@@ -412,7 +412,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = (
-					armv7,
+					armv7s,
 					armv64,
 				);
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -441,6 +441,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "GPS App - iOS 7";
 				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = "arm64 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -449,7 +450,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = (
-					armv7,
+					armv7s,
 					armv64,
 				);
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -478,6 +479,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "GPS App - iOS 7";
 				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = "arm64 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
