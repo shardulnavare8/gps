@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1AAD2FEF1AE84BE400F04359 /* AWSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AAD2FEE1AE84BE400F04359 /* AWSDK.framework */; };
 		1AAD2FF41AE84C0600F04359 /* Activation.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AAD2FF01AE84C0600F04359 /* Activation.bundle */; };
 		1AAD2FF51AE84C0600F04359 /* AWKit.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AAD2FF11AE84C0600F04359 /* AWKit.bundle */; };
 		1AAD2FF61AE84C0600F04359 /* EVAssets.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AAD2FF21AE84C0600F04359 /* EVAssets.bundle */; };
@@ -26,6 +25,7 @@
 		1AAD300F1AE84D5B00F04359 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AAD300E1AE84D5B00F04359 /* AssetsLibrary.framework */; };
 		1AAD30111AE84D6500F04359 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AAD30101AE84D6500F04359 /* Accelerate.framework */; };
 		1AAD30131AE84D6E00F04359 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AAD30121AE84D6E00F04359 /* CoreVideo.framework */; };
+		1AAD30151AE852E000F04359 /* AWSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AAD30141AE852E000F04359 /* AWSDK.framework */; };
 		7286F4A715F3FD4B0089327F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7286F4A615F3FD4B0089327F /* UIKit.framework */; };
 		7286F4A915F3FD4B0089327F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7286F4A815F3FD4B0089327F /* Foundation.framework */; };
 		7286F4AB15F3FD4B0089327F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7286F4AA15F3FD4B0089327F /* CoreGraphics.framework */; };
@@ -77,6 +77,7 @@
 		1AAD300E1AE84D5B00F04359 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		1AAD30101AE84D6500F04359 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		1AAD30121AE84D6E00F04359 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		1AAD30141AE852E000F04359 /* AWSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSDK.framework; path = "../../Documents/SE SME MAM/MAM/SDK/iOS/AW Internal/5.0/AWSDK.framework"; sourceTree = "<group>"; };
 		7286F4A215F3FD4B0089327F /* GPS App - iOS 7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GPS App - iOS 7.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7286F4A615F3FD4B0089327F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7286F4A815F3FD4B0089327F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -118,6 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AAD30151AE852E000F04359 /* AWSDK.framework in Frameworks */,
 				1AAD30131AE84D6E00F04359 /* CoreVideo.framework in Frameworks */,
 				1AAD30111AE84D6500F04359 /* Accelerate.framework in Frameworks */,
 				1AAD300F1AE84D5B00F04359 /* AssetsLibrary.framework in Frameworks */,
@@ -149,7 +151,6 @@
 				1AAD2FF51AE84C0600F04359 /* AWKit.bundle in Frameworks */,
 				1AAD2FF61AE84C0600F04359 /* EVAssets.bundle in Frameworks */,
 				1AAD2FF71AE84C0600F04359 /* EVImages.xcassets in Frameworks */,
-				1AAD2FEF1AE84BE400F04359 /* AWSDK.framework in Frameworks */,
 				8A10287717F4E24300475E2E /* libstdc++.dylib in Frameworks */,
 				8A10287517F4E23400475E2E /* libc.dylib in Frameworks */,
 				8A10287117F4E21E00475E2E /* libc++.dylib in Frameworks */,
@@ -180,6 +181,7 @@
 		7286F4A515F3FD4B0089327F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1AAD30141AE852E000F04359 /* AWSDK.framework */,
 				1AAD30121AE84D6E00F04359 /* CoreVideo.framework */,
 				1AAD30101AE84D6500F04359 /* Accelerate.framework */,
 				1AAD300E1AE84D5B00F04359 /* AssetsLibrary.framework */,
@@ -421,6 +423,10 @@
 					SME,
 					MAM/MAM/SDK/iOS/AW,
 					Internal/5.2,
+					/Users/snavare/Documents/SE,
+					SME,
+					MAM/MAM/SDK/iOS/AW,
+					Internal/5.0,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JHWebBrowser/GPS App-Prefix.pch";
@@ -456,6 +462,10 @@
 					SME,
 					MAM/MAM/SDK/iOS/AW,
 					Internal/5.2,
+					/Users/snavare/Documents/SE,
+					SME,
+					MAM/MAM/SDK/iOS/AW,
+					Internal/5.0,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JHWebBrowser/GPS App-Prefix.pch";
