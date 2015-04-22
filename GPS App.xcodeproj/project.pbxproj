@@ -7,7 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A003DA51AD41A060069BC13 /* AWSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A003DA41AD41A060069BC13 /* AWSDK.framework */; };
+		1AAD2FEF1AE84BE400F04359 /* AWSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AAD2FEE1AE84BE400F04359 /* AWSDK.framework */; };
+		1AAD2FF41AE84C0600F04359 /* Activation.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AAD2FF01AE84C0600F04359 /* Activation.bundle */; };
+		1AAD2FF51AE84C0600F04359 /* AWKit.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AAD2FF11AE84C0600F04359 /* AWKit.bundle */; };
+		1AAD2FF61AE84C0600F04359 /* EVAssets.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AAD2FF21AE84C0600F04359 /* EVAssets.bundle */; };
+		1AAD2FF71AE84C0600F04359 /* EVImages.xcassets in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AAD2FF31AE84C0600F04359 /* EVImages.xcassets */; };
+		1AAD2FF91AE84C2500F04359 /* SDKLocalization.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AAD2FF81AE84C2500F04359 /* SDKLocalization.bundle */; };
+		1AAD2FFB1AE84C2E00F04359 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AAD2FFA1AE84C2E00F04359 /* libstdc++.6.0.9.dylib */; };
+		1AAD2FFD1AE84C8700F04359 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AAD2FFC1AE84C8700F04359 /* CoreFoundation.framework */; };
+		1AAD2FFF1AE84CB900F04359 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AAD2FFE1AE84CB900F04359 /* AVFoundation.framework */; };
+		1AAD30011AE84CD500F04359 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AAD30001AE84CD500F04359 /* MediaPlayer.framework */; };
+		1AAD30031AE84CEC00F04359 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AAD30021AE84CEC00F04359 /* QuartzCore.framework */; };
+		1AAD30051AE84D1800F04359 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AAD30041AE84D1800F04359 /* LocalAuthentication.framework */; };
+		1AAD30071AE84D1F00F04359 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AAD30061AE84D1F00F04359 /* CoreMotion.framework */; };
+		1AAD30091AE84D2700F04359 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AAD30081AE84D2700F04359 /* ImageIO.framework */; };
+		1AAD300B1AE84D3100F04359 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AAD300A1AE84D3100F04359 /* CoreMedia.framework */; };
+		1AAD300D1AE84D4E00F04359 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AAD300C1AE84D4E00F04359 /* AudioToolbox.framework */; };
+		1AAD300F1AE84D5B00F04359 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AAD300E1AE84D5B00F04359 /* AssetsLibrary.framework */; };
+		1AAD30111AE84D6500F04359 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AAD30101AE84D6500F04359 /* Accelerate.framework */; };
+		1AAD30131AE84D6E00F04359 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AAD30121AE84D6E00F04359 /* CoreVideo.framework */; };
 		7286F4A715F3FD4B0089327F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7286F4A615F3FD4B0089327F /* UIKit.framework */; };
 		7286F4A915F3FD4B0089327F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7286F4A815F3FD4B0089327F /* Foundation.framework */; };
 		7286F4AB15F3FD4B0089327F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7286F4AA15F3FD4B0089327F /* CoreGraphics.framework */; };
@@ -40,6 +58,25 @@
 
 /* Begin PBXFileReference section */
 		1A003DA41AD41A060069BC13 /* AWSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AWSDK.framework; sourceTree = "<group>"; };
+		1AAD2FEE1AE84BE400F04359 /* AWSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSDK.framework; path = "../../Documents/SE SME MAM/MAM/SDK/iOS/AW Internal/5.2/AWSDK.framework"; sourceTree = "<group>"; };
+		1AAD2FF01AE84C0600F04359 /* Activation.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Activation.bundle; path = "../../Documents/SE SME MAM/MAM/SDK/iOS/AW Internal/5.2/AWSDK.framework/Versions/A/Activation.bundle"; sourceTree = "<group>"; };
+		1AAD2FF11AE84C0600F04359 /* AWKit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AWKit.bundle; path = "../../Documents/SE SME MAM/MAM/SDK/iOS/AW Internal/5.2/AWSDK.framework/Versions/A/AWKit.bundle"; sourceTree = "<group>"; };
+		1AAD2FF21AE84C0600F04359 /* EVAssets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = EVAssets.bundle; path = "../../Documents/SE SME MAM/MAM/SDK/iOS/AW Internal/5.2/AWSDK.framework/Versions/A/EVAssets.bundle"; sourceTree = "<group>"; };
+		1AAD2FF31AE84C0600F04359 /* EVImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = EVImages.xcassets; path = "../../Documents/SE SME MAM/MAM/SDK/iOS/AW Internal/5.2/AWSDK.framework/Versions/A/EVImages.xcassets"; sourceTree = "<group>"; };
+		1AAD2FF81AE84C2500F04359 /* SDKLocalization.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = SDKLocalization.bundle; path = "../../Documents/SE SME MAM/MAM/SDK/iOS/AW Internal/5.2/SDKLocalization.bundle"; sourceTree = "<group>"; };
+		1AAD2FFA1AE84C2E00F04359 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
+		1AAD2FFC1AE84C8700F04359 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		1AAD2FFE1AE84CB900F04359 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1AAD30001AE84CD500F04359 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		1AAD30021AE84CEC00F04359 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1AAD30041AE84D1800F04359 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		1AAD30061AE84D1F00F04359 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		1AAD30081AE84D2700F04359 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		1AAD300A1AE84D3100F04359 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		1AAD300C1AE84D4E00F04359 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1AAD300E1AE84D5B00F04359 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		1AAD30101AE84D6500F04359 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		1AAD30121AE84D6E00F04359 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		7286F4A215F3FD4B0089327F /* GPS App - iOS 7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GPS App - iOS 7.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7286F4A615F3FD4B0089327F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7286F4A815F3FD4B0089327F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -81,24 +118,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A003DA51AD41A060069BC13 /* AWSDK.framework in Frameworks */,
-				8A10288517F4E2DF00475E2E /* CoreText.framework in Frameworks */,
-				8A10288317F4E2DA00475E2E /* CoreData.framework in Frameworks */,
-				8A10288117F4E2D500475E2E /* CoreTelephony.framework in Frameworks */,
-				8A10287F17F4E28300475E2E /* MobileCoreServices.framework in Frameworks */,
-				8A10287D17F4E27300475E2E /* libz.dylib in Frameworks */,
-				8A10287B17F4E26B00475E2E /* MessageUI.framework in Frameworks */,
+				1AAD30131AE84D6E00F04359 /* CoreVideo.framework in Frameworks */,
+				1AAD30111AE84D6500F04359 /* Accelerate.framework in Frameworks */,
+				1AAD300F1AE84D5B00F04359 /* AssetsLibrary.framework in Frameworks */,
+				1AAD2FFF1AE84CB900F04359 /* AVFoundation.framework in Frameworks */,
+				1AAD300D1AE84D4E00F04359 /* AudioToolbox.framework in Frameworks */,
+				1AAD300B1AE84D3100F04359 /* CoreMedia.framework in Frameworks */,
+				1AAD30091AE84D2700F04359 /* ImageIO.framework in Frameworks */,
+				1AAD30071AE84D1F00F04359 /* CoreMotion.framework in Frameworks */,
+				1AAD30051AE84D1800F04359 /* LocalAuthentication.framework in Frameworks */,
+				7286F4A715F3FD4B0089327F /* UIKit.framework in Frameworks */,
 				8A10287917F4E25800475E2E /* SystemConfiguration.framework in Frameworks */,
+				8A10286B17F4E1F900475E2E /* Security.framework in Frameworks */,
+				1AAD30031AE84CEC00F04359 /* QuartzCore.framework in Frameworks */,
+				8A10287F17F4E28300475E2E /* MobileCoreServices.framework in Frameworks */,
+				8A10287B17F4E26B00475E2E /* MessageUI.framework in Frameworks */,
+				1AAD30011AE84CD500F04359 /* MediaPlayer.framework in Frameworks */,
+				8A10287D17F4E27300475E2E /* libz.dylib in Frameworks */,
+				1AAD2FFD1AE84C8700F04359 /* CoreFoundation.framework in Frameworks */,
+				7286F4A915F3FD4B0089327F /* Foundation.framework in Frameworks */,
+				8A10288517F4E2DF00475E2E /* CoreText.framework in Frameworks */,
+				8A10288117F4E2D500475E2E /* CoreTelephony.framework in Frameworks */,
+				8A10286D17F4E20100475E2E /* CoreLocation.framework in Frameworks */,
+				7286F4AB15F3FD4B0089327F /* CoreGraphics.framework in Frameworks */,
+				8A10288317F4E2DA00475E2E /* CoreData.framework in Frameworks */,
+				8A10287317F4E22900475E2E /* CFNetwork.framework in Frameworks */,
+				1AAD2FFB1AE84C2E00F04359 /* libstdc++.6.0.9.dylib in Frameworks */,
+				1AAD2FF91AE84C2500F04359 /* SDKLocalization.bundle in Frameworks */,
+				1AAD2FF41AE84C0600F04359 /* Activation.bundle in Frameworks */,
+				1AAD2FF51AE84C0600F04359 /* AWKit.bundle in Frameworks */,
+				1AAD2FF61AE84C0600F04359 /* EVAssets.bundle in Frameworks */,
+				1AAD2FF71AE84C0600F04359 /* EVImages.xcassets in Frameworks */,
+				1AAD2FEF1AE84BE400F04359 /* AWSDK.framework in Frameworks */,
 				8A10287717F4E24300475E2E /* libstdc++.dylib in Frameworks */,
 				8A10287517F4E23400475E2E /* libc.dylib in Frameworks */,
-				8A10287317F4E22900475E2E /* CFNetwork.framework in Frameworks */,
 				8A10287117F4E21E00475E2E /* libc++.dylib in Frameworks */,
 				8A10286F17F4E20900475E2E /* libsqlite3.dylib in Frameworks */,
-				8A10286D17F4E20100475E2E /* CoreLocation.framework in Frameworks */,
-				8A10286B17F4E1F900475E2E /* Security.framework in Frameworks */,
-				7286F4A715F3FD4B0089327F /* UIKit.framework in Frameworks */,
-				7286F4A915F3FD4B0089327F /* Foundation.framework in Frameworks */,
-				7286F4AB15F3FD4B0089327F /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +180,25 @@
 		7286F4A515F3FD4B0089327F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1AAD30121AE84D6E00F04359 /* CoreVideo.framework */,
+				1AAD30101AE84D6500F04359 /* Accelerate.framework */,
+				1AAD300E1AE84D5B00F04359 /* AssetsLibrary.framework */,
+				1AAD300C1AE84D4E00F04359 /* AudioToolbox.framework */,
+				1AAD300A1AE84D3100F04359 /* CoreMedia.framework */,
+				1AAD30081AE84D2700F04359 /* ImageIO.framework */,
+				1AAD30061AE84D1F00F04359 /* CoreMotion.framework */,
+				1AAD30041AE84D1800F04359 /* LocalAuthentication.framework */,
+				1AAD30021AE84CEC00F04359 /* QuartzCore.framework */,
+				1AAD30001AE84CD500F04359 /* MediaPlayer.framework */,
+				1AAD2FFE1AE84CB900F04359 /* AVFoundation.framework */,
+				1AAD2FFC1AE84C8700F04359 /* CoreFoundation.framework */,
+				1AAD2FFA1AE84C2E00F04359 /* libstdc++.6.0.9.dylib */,
+				1AAD2FF81AE84C2500F04359 /* SDKLocalization.bundle */,
+				1AAD2FF01AE84C0600F04359 /* Activation.bundle */,
+				1AAD2FF11AE84C0600F04359 /* AWKit.bundle */,
+				1AAD2FF21AE84C0600F04359 /* EVAssets.bundle */,
+				1AAD2FF31AE84C0600F04359 /* EVImages.xcassets */,
+				1AAD2FEE1AE84BE400F04359 /* AWSDK.framework */,
 				1A003DA41AD41A060069BC13 /* AWSDK.framework */,
 				8A10288417F4E2DF00475E2E /* CoreText.framework */,
 				8A10288217F4E2DA00475E2E /* CoreData.framework */,
@@ -342,11 +416,19 @@
 		7286F4C415F3FD4C0089327F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					armv7,
+					armv64,
+				);
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					/Users/snavare/Documents/SE,
+					SME,
+					MAM/MAM/SDK/iOS/AW,
+					Internal/5.2,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JHWebBrowser/GPS App-Prefix.pch";
@@ -356,7 +438,7 @@
 					"/Users/dedmonson/Desktop/JHWebBrowser-master/AWSDK/**",
 				);
 				INFOPLIST_FILE = "JHWebBrowser/GPS App-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/dedmonson/Desktop/JHWebBrowser-master",
@@ -371,11 +453,19 @@
 		7286F4C515F3FD4C0089327F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					armv7,
+					armv64,
+				);
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					/Users/snavare/Documents/SE,
+					SME,
+					MAM/MAM/SDK/iOS/AW,
+					Internal/5.2,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JHWebBrowser/GPS App-Prefix.pch";
@@ -385,7 +475,7 @@
 					"/Users/dedmonson/Desktop/JHWebBrowser-master/AWSDK/**",
 				);
 				INFOPLIST_FILE = "JHWebBrowser/GPS App-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/dedmonson/Desktop/JHWebBrowser-master",
