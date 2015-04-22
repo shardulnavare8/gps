@@ -413,7 +413,7 @@
 		7286F4C415F3FD4C0089327F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = armv7;
+				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -436,7 +436,7 @@
 					"/Users/dedmonson/Desktop/JHWebBrowser-master/AWSDK/**",
 				);
 				INFOPLIST_FILE = "JHWebBrowser/GPS App-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/dedmonson/Desktop/JHWebBrowser-master",
@@ -444,7 +444,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "GPS App - iOS 7";
 				PROVISIONING_PROFILE = "";
-				VALID_ARCHS = armv7;
+				VALID_ARCHS = "armv7 armv64";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -452,7 +452,7 @@
 		7286F4C515F3FD4C0089327F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = armv7;
+				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -475,7 +475,7 @@
 					"/Users/dedmonson/Desktop/JHWebBrowser-master/AWSDK/**",
 				);
 				INFOPLIST_FILE = "JHWebBrowser/GPS App-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/dedmonson/Desktop/JHWebBrowser-master",
@@ -483,7 +483,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "GPS App - iOS 7";
 				PROVISIONING_PROFILE = "";
-				VALID_ARCHS = armv7;
+				VALID_ARCHS = "armv7 armv64";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
