@@ -298,11 +298,6 @@
 			attributes = {
 				LastUpgradeCheck = 0440;
 				ORGANIZATIONNAME = AirWatch;
-				TargetAttributes = {
-					7286F4A115F3FD4B0089327F = {
-						DevelopmentTeam = 57GD4WK7V4;
-					};
-				};
 			};
 			buildConfigurationList = 7286F49C15F3FD4B0089327F /* Build configuration list for PBXProject "GPS App" */;
 			compatibilityVersion = "Xcode 3.2";
